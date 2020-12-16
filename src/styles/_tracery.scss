@@ -1,0 +1,26 @@
+.tracery {
+  @include margin-bottom(80, 30);
+
+  display: flex;
+
+  &__img {
+    @include width(520, 60);
+    @include height(40, 20);
+  }
+
+  &__text {
+    @include font(24, 12);
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: $vine;
+  }
+}
+
+.tracery-no-text {
+  @include margin-bottom(100, 30);
+
+  &__img {
+    @include width(1670, 250);
+  }
+}
