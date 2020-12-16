@@ -6,26 +6,44 @@
   flex-direction: column;
   align-items: flex-start;
 
-  @include font(24, 14);
-  font-weight: 600;
-  color: $dark;
-
   &__phone {
     @include margin-bottom(30, 15);
+
+    @include font(24, 14);
+    font-weight: 600;
+    text-decoration: none;
+    color: $dark;
+
+    transition: color .3s;
+
+    &:hover {
+      color: $vine;
+    }
   }
 
   &__email {
     @include margin-bottom(30, 15);
+
+    @include font(24, 14);
+    font-weight: 600;
+    text-decoration: none;
+    color: $dark;
+
+    transition: color .3s;
+
+    &:hover {
+      color: $vine;
+    }
   }
 
   &__link {
     @include font(50, 25);
     color: $dark;
 
-    transition: opacity .3s;
+    transition: color .3s;
 
     &:hover {
-      opacity: 0.9;
+      color: $vine;
     }
   }
 }

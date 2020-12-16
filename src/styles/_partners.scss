@@ -28,5 +28,13 @@
   &__img {
     @include width(263, 60);
     @include height(263, 60);
+
+    transition: transform .3s;
+
+    &:hover {
+      transform: scale(1.09);
+
+      cursor: pointer;
+    }
   }
 }

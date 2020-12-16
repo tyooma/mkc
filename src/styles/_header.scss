@@ -19,11 +19,19 @@
 
     display: flex;
     justify-content: space-evenly;
+
+    @media (max-width: 769px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   &__video {
-    @include width(690, 100);
-    @include height(370, 50);
+    @include margin-bottom(40, 25);
+
+    @include width(690, 250);
+    @include height(370, 120);
 
     border-radius: 10px;
   }

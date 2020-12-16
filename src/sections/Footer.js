@@ -6,8 +6,12 @@ export const Footer = () => {
 
   return (
     <div className='footer'>
-      <div className='footer__phone'>{contacts.phone}</div>
-      <div className='footer__email'>{contacts.email}</div>
+      <a href='tel:+38 (045) 792 36 20' className='footer__phone'>
+        {contacts.phone}
+      </a>
+      <a href='mailto:culture@slavutych.capital' className='footer__email'>
+        {contacts.email}
+      </a>
       <div className='footer__icons'>
         <a href='###' className='footer__link'>
           <ion-icon name='logo-instagram' />

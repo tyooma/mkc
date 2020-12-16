@@ -5,6 +5,18 @@
   grid-template-columns: repeat(4, 1fr);
   grid-row-gap: 65px;
 
+  @media (max-width: 769px) {
+    @include padding-right(250, 50);
+    @include padding-left(250, 50);
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 45px;
+  }
+
+  @media (max-width: 376px) {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 20px;
+  }
+
   .curator {
     display: flex;
     flex-direction: column;
@@ -13,8 +25,8 @@
     &__img {
       margin-bottom: 20px;
 
-      @include width(344, 150);
-      @include height(344, 150);
+      @include width(300, 100);
+      @include height(300, 100);
 
       border-radius: 6px;
     }
@@ -24,10 +36,13 @@
 
       @include font(24, 14);
       font-weight: bold;
+      text-align: center;
       color: $vine;
     }
 
     &__position {
+      @include width (300, 100);
+
       @include font(18, 10);
       font-weight: 600;
       text-align: center;
@@ -39,12 +54,33 @@
 .initiative-logos {
   @include margin-bottom(200, 60);
 
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  @media (max-width: 769px) {
+    @include padding-right(450, 50);
+    @include padding-left(450, 50);
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+  }
+
+  @media (max-width: 376px) {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 15px;
+  }
 
   &__item {
-    @include width(270, 135);
-    @include height(135, 68);
+    @include width(270, 68);
+    @include height(135, 34);
+
+    justify-self: center;
+
+    transition: transform .3s;
+
+    &:hover {
+      transform: scale(1.09);
+
+      cursor: pointer;
+    }
   }
 }
