@@ -6,6 +6,10 @@
   flex-direction: column;
   align-items: flex-start;
 
+  @media (max-width: 376px) {
+    align-items: center;
+  }
+
   &__phone {
     @include margin-bottom(30, 15);
 
@@ -37,6 +41,8 @@
   }
 
   &__link {
+    margin-right: 30px;
+
     @include font(50, 25);
     color: $dark;
 

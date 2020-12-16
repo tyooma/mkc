@@ -58,8 +58,6 @@
   grid-template-columns: repeat(4, 1fr);
 
   @media (max-width: 769px) {
-    @include padding-right(450, 50);
-    @include padding-left(450, 50);
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 30px;
   }
@@ -70,8 +68,8 @@
   }
 
   &__item {
-    @include width(270, 68);
-    @include height(135, 34);
+    @include width(270, 145);
+    @include height(135, 68);
 
     justify-self: center;
 

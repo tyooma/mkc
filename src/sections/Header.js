@@ -5,15 +5,10 @@ import mainLogo from '../assets/main_logo.svg'
 
 import { Jumbotron } from '../components/Jumbotron'
 import { Nav } from '../components/Nav'
-import { Tracery } from '../components/Tracery'
 
 export const Header = () => {
   const content = useSelector((state) =>
     state.initiatives.find((item) => item.section === 'Header')
-  )
-
-  const ornament = useSelector((state) =>
-    state.decors.find((item) => item.id === '1')
   )
 
   return (
@@ -46,7 +41,6 @@ export const Header = () => {
           className='header__video'
         />
       </div>
-      <Tracery decor={ornament.decor} text={ornament.text} />
     </div>
   )
 }

@@ -30,8 +30,8 @@
   &__video {
     @include margin-bottom(40, 25);
 
-    @include width(690, 250);
-    @include height(370, 120);
+    @include width(690, 300);
+    @include height(370, 160);
 
     border-radius: 10px;
   }

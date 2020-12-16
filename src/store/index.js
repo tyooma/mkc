@@ -76,27 +76,27 @@ const initState = {
   decors: [
     {
       id: '1',
-      decor: 'https://i.ibb.co/RytMW0F/dec-1.png',
+      decor: 'https://svgshare.com/i/SPW.svg',
       text: 'За підтримки українського культурного фонду'
     },
     {
       id: '2',
-      decor: 'https://i.ibb.co/RytMW0F/dec-1.png',
+      decor: 'https://svgshare.com/i/SPW.svg',
       text: ''
     },
     {
       id: '3',
-      decor: 'https://i.ibb.co/y6RWNBv/dec-2.png',
+      decor: 'https://svgshare.com/i/SMm.svg',
       text: ''
     },
     {
       id: '4',
-      decor: 'https://i.ibb.co/xmPk5XC/dec-3.png',
+      decor: 'https://svgshare.com/i/SQ2.svg',
       text: ''
     },
     {
       id: '5',
-      decor: 'https://i.ibb.co/RytMW0F/dec-1.png',
+      decor: 'https://svgshare.com/i/SPW.svg',
       text: 'куратори проекту'
     }
   ],
