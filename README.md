@@ -1,6 +1,6 @@
 # МКС (МАЛА КУЛЬТУРНА СТОЛИЦЯ)
 ## DEMO
-[DEMO]()
+[DEMO](https://tyooma.github.io/mkc/)
 ## TECH STACK
 SCSS, BEM, React.js, Redux, Firebase, Ionics
 ## INSTALL & RUN
