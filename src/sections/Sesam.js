@@ -18,6 +18,7 @@ export const Sesam = () => {
         titleColor={content.titleColor}
         descColor={content.descColor}
       />
+      <div className='section__ornament section__ornament_sesam' />
     </div>
   )
 }

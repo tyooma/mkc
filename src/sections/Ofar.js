@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux'
 
 import { Jumbotron } from '../components/Jumbotron'
 
-export const ArtResidence = () => {
+export const Ofar = () => {
   const content = useSelector((state) =>
     state.initiatives.find((item) => item.id === '2')
   )
@@ -18,6 +18,7 @@ export const ArtResidence = () => {
         titleColor={content.titleColor}
         descColor={content.descColor}
       />
+      <div className='section__ornament section__ornament_ofar' />
     </div>
   )
 }

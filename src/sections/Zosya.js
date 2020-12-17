@@ -18,6 +18,7 @@ export const Zosya = () => {
         titleColor={content.titleColor}
         descColor={content.descColor}
       />
+      <div className='section__ornament section__ornament_zosya' />
     </div>
   )
 }

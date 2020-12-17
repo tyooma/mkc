@@ -7,6 +7,13 @@ export const Curators = () => {
 
   return (
     <>
+      <div className='curators-decor'>
+        <div className='curators-decor__decor'>
+          <div className='curators-decor__ornament curators-decor__ornament_left' />
+          <div className='curators-decor__decor-text'>куратори проекту</div>
+          <div className='curators-decor__ornament curators-decor__ornament_right' />
+        </div>
+      </div>
       <div className='curators'>
         {curators.map((curator) => (
           <div key={curator.id} className='curator'>

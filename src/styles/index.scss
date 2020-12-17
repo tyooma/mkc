@@ -23,4 +23,6 @@
 .wrapper {
   @include padding-right(120, 15);
   @include padding-left(120, 15);
+
+  overflow: hidden;
 }

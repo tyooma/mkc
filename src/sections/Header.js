@@ -41,6 +41,13 @@ export const Header = () => {
           className='header__video'
         />
       </div>
+      <div className='header__decor'>
+        <div className='header__ornament header__ornament_left' />
+        <div className='header__decor-text'>
+          За підтримки українського культурного фонду
+        </div>
+        <div className='header__ornament header__ornament_right' />
+      </div>
     </div>
   )
 }

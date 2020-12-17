@@ -1,3 +1,44 @@
+.curators-decor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__decor {
+    @include margin-bottom(135, 69);
+  
+    display: flex;
+    align-items: center;
+  }
+  
+  &__ornament {
+    @include width(800, 261);
+    height: 40px;
+  
+    background: url('../assets/dec-1.svg');
+  }
+  
+  &__ornament_left {
+    background-position: right;
+  }
+  
+  &__ornament_right {
+    background-position: left;
+  }
+  
+  &__decor-text {
+    @include margin-right(15, 8);
+    @include margin-left(15, 8);
+
+    @include width(410, 80);
+  
+    @include font(32, 16);
+    font-weight: bold;
+    text-align: center;
+    text-transform: lowercase;
+    color: $vine;
+  }
+}
+
 .curators {
   @include margin-bottom(80, 30);
 

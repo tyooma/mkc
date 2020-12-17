@@ -1,4 +1,4 @@
-import { ArtResidence } from './sections/ArtResidence'
+import { Ofar } from './sections/Ofar'
 import { Curators } from './sections/Curators'
 import { Footer } from './sections/Footer'
 import { GoldenFest } from './sections/GoldenFest'
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="wrapper">
       <Header />
-      <ArtResidence />
+      <Ofar />
       <Sesam />
       <Zosya />
       <GoldenFest />

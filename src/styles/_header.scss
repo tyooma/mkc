@@ -13,7 +13,7 @@
   }
 
   &__videos {
-    @include margin-bottom(80, 30);
+    @include margin-bottom(40, 20);
 
     @include width(1670, 250);
 
@@ -34,5 +34,40 @@
     @include height(370, 160);
 
     border-radius: 10px;
+  }
+
+  &__decor {
+    @include margin-bottom(80, 40);
+
+    display: flex;
+    align-items: center;
+  }
+
+  &__ornament {
+    @include width(622, 261);
+    height: 40px;
+
+    background: url('../assets/dec-1.svg');
+  }
+
+  &__ornament_left {
+    background-position: right;
+  }
+
+  &__ornament_right {
+    background-position: left;
+  }
+
+  &__decor-text {
+    @include margin-right(15, 8);
+    @include margin-left(15, 8);
+
+    @include width(814, 100);
+
+    @include font(24, 12);
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: $vine;
   }
 }
