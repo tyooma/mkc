@@ -1,11 +1,14 @@
 import React from 'react'
+
 import { Btn } from './Btn'
+import { MoreBtn } from './MoreBtn'
 
 export const Jumbotron = ({
   title,
   desc,
   background,
   btn,
+  moreBtn,
   titleColor,
   descColor
 }) => (
@@ -14,7 +17,12 @@ export const Jumbotron = ({
       {title}
     </div>
     <div className='jumbotron__desc' style={{ color: descColor }}>
-      {desc}
+      {desc}{' '}
+      <MoreBtn
+        title={moreBtn.title}
+        color={moreBtn.color}
+        href={moreBtn.href}
+      />
     </div>
     {btn.text ? <Btn btn={btn} /> : ''}
   </div>

@@ -14,6 +14,7 @@ export const Ofar = () => {
         title={content.title}
         desc={content.desc}
         btn={content.btn}
+        moreBtn={content.moreBtn}
         background={content.background}
         titleColor={content.titleColor}
         descColor={content.descColor}
