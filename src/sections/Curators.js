@@ -18,14 +18,23 @@ export const Curators = () => {
         {curators.map((curator) => (
           <div key={curator.id} className='curator'>
             <img src={curator.img} alt='curator' className='curator__img' />
-            <div className='curator__name'>{curator.name}</div>
+            <a
+              href={curator.href}
+              target='_blanl'
+              rel='noreferrer'
+              className='curator__name'
+            >
+              {curator.name}
+            </a>
             <div className='curator__position'>{curator.position}</div>
           </div>
         ))}
       </div>
       <div className='initiative-logos'>
         {initiativeLogos.map((logo) => (
-          <img src={logo.img} alt='logo' className='initiative-logos__item' />
+          <a href={logo.href} target='_blank' rel='noreferrer' key={logo.id}>
+            <img src={logo.img} alt='logo' className='initiative-logos__item' />
+          </a>
         ))}
       </div>
     </>

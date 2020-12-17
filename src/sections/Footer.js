@@ -13,13 +13,28 @@ export const Footer = () => {
         {contacts.email}
       </a>
       <div className='footer__icons'>
-        <a href='###' className='footer__link'>
+        <a
+          href='https://www.instagram.com/slavutichgram/'
+          target='_blank'
+          rel='noreferrer'
+          className='footer__link'
+        >
           <ion-icon name='logo-instagram' />
         </a>
-        <a href='###' className='footer__link'>
+        <a
+          href='https://www.facebook.com/culturalcapital2021'
+          target='_blank'
+          rel='noreferrer'
+          className='footer__link'
+        >
           <ion-icon name='logo-facebook' />
         </a>
-        <a href='###' className='footer__link'>
+        <a
+          href='https://www.youtube.com/watch?v=bkzXt7swcfE&feature=emb_logo'
+          target='_blank'
+          rel='noreferrer'
+          className='footer__link'
+        >
           <ion-icon name='logo-youtube' />
         </a>
       </div>

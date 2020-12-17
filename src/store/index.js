@@ -15,7 +15,7 @@ const initState = {
       moreBtn: {
         title: 'More...',
         color: '#d71016',
-        href: ''
+        href: 'https://investslavutych.arr.in.ua/turizm/'
       },
       titleColor: '#000',
       descColor: '#000',
@@ -34,7 +34,7 @@ const initState = {
       moreBtn: {
         title: 'More...',
         color: '#fbb912',
-        href: ''
+        href: 'https://www.facebook.com/SurrealismSlavutych'
       },
       titleColor: '#fff',
       descColor: '#fff',
@@ -53,7 +53,7 @@ const initState = {
       moreBtn: {
         title: 'More...',
         color: '#801713',
-        href: ''
+        href: 'https://sesam2021ukraine.com/'
       },
       titleColor: '#000',
       descColor: '#fff',
@@ -72,7 +72,7 @@ const initState = {
       moreBtn: {
         title: 'More...',
         color: '#d71016',
-        href: ''
+        href: 'https://zosya.slavutych.city/'
       },
       titleColor: '#000',
       descColor: '#fff',
@@ -91,7 +91,7 @@ const initState = {
       moreBtn: {
         title: 'More...',
         color: '#801713',
-        href: ''
+        href: 'https://www.facebook.com/GOLDenFestSlavutych'
       },
       titleColor: '#fff',
       descColor: '#fff',
@@ -103,67 +103,79 @@ const initState = {
       id: '1',
       name: 'Юрій Фомічев',
       position: 'мер Славутича – Малої культурної столиці України-2021',
-      img: 'https://i.ibb.co/pfysp4L/1.png'
+      img: 'https://i.ibb.co/pfysp4L/1.png',
+      href: 'https://www.facebook.com/Fomichev.Slavutich'
     },
     {
       id: '2',
       name: 'Ніна Баришевська',
       position: 'начальник Відділу культури, національностей та релігій',
-      img: 'https://i.ibb.co/TrSBbTf/2.png'
+      img: 'https://i.ibb.co/TrSBbTf/2.png',
+      href: 'https://www.facebook.com/bagrinina'
     },
     {
       id: '3',
       name: 'Віктор Гріза',
       position: 'куратор Open Format Art Residence ',
-      img: 'https://i.ibb.co/LpS0Cmj/3.png'
+      img: 'https://i.ibb.co/LpS0Cmj/3.png',
+      href: 'https://www.facebook.com/viktor.griza/'
     },
     {
       id: '4',
       name: 'Єлизавета Зігура',
       position: 'со-куратор Open Format Art Residence',
-      img: 'https://i.ibb.co/y89tc8f/4.png'
+      img: 'https://i.ibb.co/y89tc8f/4.png',
+      href: 'https://www.facebook.com/liza.liz.79827'
     },
     {
       id: '5',
       name: 'Арина Старовойтова',
       position: 'куратор SESAM Poliklinika & GOLDenFest ',
-      img: 'https://i.ibb.co/Dzf43FT/5.png'
+      img: 'https://i.ibb.co/Dzf43FT/5.png',
+      href: 'https://www.facebook.com/aryna.starovoitova'
     },
     {
       id: '6',
       name: 'Марина Карасьова',
       position: 'со-куратор SESAM Poliklinika & GOLDenFest ',
-      img: 'https://i.ibb.co/Vpy7gDg/6.png'
+      img: 'https://i.ibb.co/Vpy7gDg/6.png',
+      href: 'https://www.facebook.com/marina.karaseva.75'
     },
     {
       id: '7',
       name: 'Ніна Єрьоміна',
       position: 'куратор фестивалю «Золота осінь Славутича»',
-      img: 'https://i.ibb.co/6Yrw0ys/7.png'
+      img: 'https://i.ibb.co/6Yrw0ys/7.png',
+      href: 'https://www.facebook.com/profile.php?id=100028592674328'
     },
     {
       id: '8',
       name: 'Наталія Кошовнік',
       position: 'со-куратор фестивалю «Золота осінь Славутича»  ',
-      img: 'https://i.ibb.co/Y2M7xrb/8.png'
+      img: 'https://i.ibb.co/Y2M7xrb/8.png',
+      href: 'https://www.facebook.com/nataliakoshovnyk'
     }
   ],
   initiativeLogos: [
     {
       id: '1',
-      img: 'https://i.ibb.co/JFJYhjZ/1-OFAR-1.png'
+      img: 'https://i.ibb.co/JFJYhjZ/1-OFAR-1.png',
+      href: 'https://www.facebook.com/SurrealismSlavutych'
     },
     {
       id: '2',
-      img: 'https://i.ibb.co/px8QJkR/2-SESAM-Poliklinika-1.png'
+      img: 'https://i.ibb.co/px8QJkR/2-SESAM-Poliklinika-1.png',
+      href: 'https://www.facebook.com/EasaUkraine'
     },
     {
       id: '3',
-      img: 'https://i.ibb.co/FJ8mMwx/3-1.png'
+      img: 'https://i.ibb.co/FJ8mMwx/3-1.png',
+      href: 'https://bit.ly/3agR1X3'
     },
     {
       id: '4',
-      img: 'https://i.ibb.co/GdVbB9k/4-GOLDen-Fest-1.png'
+      img: 'https://i.ibb.co/GdVbB9k/4-GOLDen-Fest-1.png',
+      href: 'https://www.facebook.com/GOLDenFestSlavutych'
     }
   ],
   partners: {
@@ -176,23 +188,28 @@ const initState = {
     logos: [
       {
         id: '1',
-        img: 'https://i.ibb.co/fv6XML6/1-1.png'
+        img: 'https://i.ibb.co/fv6XML6/1-1.png',
+        href: 'http://e-slavutich.gov.ua/about_city/SitePages/History.aspx'
       },
       {
         id: '2',
-        img: 'https://i.ibb.co/sKPBcbF/22-1.png'
+        img: 'https://i.ibb.co/sKPBcbF/22-1.png',
+        href: 'https://www.culture-slavutich.com.ua/'
       },
       {
         id: '3',
-        img: 'https://i.ibb.co/br815mg/3-1.png'
+        img: 'https://i.ibb.co/br815mg/3-1.png',
+        href: 'https://investslavutych.arr.in.ua/'
       },
       {
         id: '4',
-        img: 'https://i.ibb.co/RTfRXsv/4-1.png'
+        img: 'https://i.ibb.co/RTfRXsv/4-1.png',
+        href: 'https://www.facebook.com/slavcomplex'
       },
       {
         id: '5',
-        img: 'https://i.ibb.co/rcyv8Ns/5-1.png'
+        img: 'https://i.ibb.co/rcyv8Ns/5-1.png',
+        href: 'https://www.facebook.com/groups/310681429697383'
       }
     ]
   },
